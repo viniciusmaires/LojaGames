@@ -1,0 +1,28 @@
+//Permite adicionar novas tasks
+apply plugin: 'java'
+//Permite que será gerado o bin
+apply plugin: 'application'
+//Especifica para a Application qual é a main class
+mainClassName = 'aulaintegracao.AulaIntegracao'
+//Informa onde será buscado as dependências
+repositories {
+    mavenCentral()
+}
+//O Gradle buscará os arquivos no diretório: src/main/java
+//Portanto, precisamos especificar os diretórios
+sourceSets{
+	main.java.srcDir "src"
+	test.java.srcDir "test"
+}
+//Altera o Main-Class no manifest.xml
+jar {
+	manifest {
+		attributes(
+			'Main-Class': 'aulaintegracao.AulaIntegracao'
+		)
+	}
+}
+//Adiciona as dependências
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
