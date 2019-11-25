@@ -129,11 +129,8 @@ public class LoginTela extends javax.swing.JFrame {
                 PrincipalTela p = new PrincipalTela();
                 p.setVisible(true);
                 this.dispose(); 
-            }
-            
-         
-        }else JOptionPane.showMessageDialog(null, "Login ou Senha inválidos!!");
-            
+            }else JOptionPane.showMessageDialog(null, "Login ou Senha inválidos!!");
+        }    
        
 
 

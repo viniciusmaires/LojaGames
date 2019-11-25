@@ -54,7 +54,6 @@ public class PrincipalTela extends javax.swing.JFrame {
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel1 = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
         jButton13 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
@@ -161,8 +160,6 @@ public class PrincipalTela extends javax.swing.JFrame {
         jLabel18.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel18.setText("Nome");
 
-        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/lojaroupa/bd/view/logovj.PNG"))); // NOI18N
-
         jButton13.setText("Logout");
         jButton13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -176,10 +173,8 @@ public class PrincipalTela extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(173, 173, 173)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel20)
-                    .addComponent(jLabel18))
-                .addContainerGap(245, Short.MAX_VALUE))
+                .addComponent(jLabel18)
+                .addContainerGap(508, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jButton13))
@@ -190,9 +185,7 @@ public class PrincipalTela extends javax.swing.JFrame {
                 .addComponent(jButton13)
                 .addGap(11, 11, 11)
                 .addComponent(jLabel18)
-                .addGap(31, 31, 31)
-                .addComponent(jLabel20)
-                .addContainerGap(46, Short.MAX_VALUE))
+                .addContainerGap(339, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Loja", null, jPanel1, "");
@@ -1002,7 +995,6 @@ public class PrincipalTela extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;

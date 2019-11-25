@@ -10,7 +10,7 @@ package br.lojaroupa.bd.model;
  * @author JoaoPaulo
  */
 public class Loja {
-    private final String NOME = "Loja de Roupas Vinicius & João";
+    private final String NOME = "Loja de Games do Vinizera";
 
     public String getNOME() {
         return NOME;

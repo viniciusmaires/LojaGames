@@ -10,7 +10,7 @@ package br.lojaroupa.bd.model;
  * @author JoaoPaulo
  */
 public class Login {
-    private final String LOGIN = "vinijao";
+    private final String LOGIN = "vini";
     private final String SENHA = "123";
     
 
